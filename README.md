@@ -12,7 +12,7 @@ As the maintainer of this project, please make a few updates:
 
 ## Introduction
 
-Bing Maps is releasing open building footprints datasets in South America countries. We have detected 44.5 million buildings on recently updated Maxar imagery that covers around 61% (258 million) of the South American population. The data is freely available for download and use under applicable license.
+Bing Maps is releasing open building footprints datasets in South America countries. We have detected 44.5 million buildings on recently updated Maxar imagery that covers around 50% of the South American population. The data is freely available for download and use under applicable license.
 ![](/images/image009.png)![](/images/image011.png)
 
 
@@ -77,20 +77,9 @@ We track following metrics to measure the quality of matched buildings in the ev
 
 We estimate ~1.5% false postive ratio in 1000 randomly sampled buildings from the entire output corpus.
 
-### Evaluation recall error space examples
-
-
-In highly urban areas problems and regression start to occur, driving the following metrics down: recall, IoU, and average rotation angle. The most frequent problem is a large number of false negatives caused by a lack of prediction granularity, like in the image below. 
-![](/images/urban.png)
-
-Here is a larger example in urban areas. Our model that splits connected buildings could not adapt without new domain training data. I would say that even training with new data is very unlikely to produce better building splits since the imagery quality in combination with high off-nadir angle makes the whole task extremely hard.
-
-![](/images/urban_large.png)
-Some areas have a high off-nadir angle, which results in wrong footprints: 
-![](/images/off_nadir.png)
 
 ### What is the vintage of this data?
-Vintage of extracted building footprints depends on vintage of the underlying imagery. Bing Imagery is a composite of multiple sources, therefore it is difficult to know the exact dates for individual pieces of data. However we believe the vintage is anywhere from 2013 to 2018, with majority being from 2018.
+Vintage of extracted building footprints depends on vintage of the underlying imagery. Underlying imagery is from Maxar, 2020/2021.
 
 ### How good is the data?
 Our metrics show that in the vast majority of cases the quality is at least as good as data hand digitized buildings in OpenStreetMap. It is not perfect, particularly in dense urban areas but it provides good recall in rural areas.
