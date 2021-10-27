@@ -1,7 +1,12 @@
 ## Introduction
 
 Bing Maps is releasing open building footprints dataset for countries in South America. We have detected 44.5 million buildings from Maxar imagery collected between 2020 and 2021 for regions encompassing approximately 50% of the South American population. The data is freely available for download and use under applicable license.
-![](/images/image009.png)![](/images/image011.png)
+
+![sample footprints](/images/image009.png)
+
+### Regions included 
+
+![building regions](/images/image011.png)
 
 
 ## License
