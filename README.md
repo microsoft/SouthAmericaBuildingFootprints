@@ -1,18 +1,6 @@
-# Project
-
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
-
 ## Introduction
 
-Bing Maps is releasing open building footprints datasets in South America countries. We have detected 44.5 million buildings on recently updated Maxar imagery that covers around 50% of the South American population. The data is freely available for download and use under applicable license.
+Bing Maps is releasing open building footprints dataset for countries in South America. We have detected 44.5 million buildings from Maxar imagery collected between 2020 and 2021 for regions encompassing approximately 50% of the South American population. The data is freely available for download and use under applicable license.
 ![](/images/image009.png)![](/images/image011.png)
 
 
@@ -21,7 +9,7 @@ This data is licensed by Microsoft under the [Open Data Commons Open Database Li
 
 ## FAQ
 ### What does the data include?
-44,495,865‬ building footprint polygon geometries in South America in GeoJSON format. You may download the data in GeoJSON format here:
+44,495,865‬ building footprint polygon geometries located in South America in GeoJSON format. You may download the data in GeoJSON format here:
 
 https://minedbuildings.blob.core.windows.net/southamerica/SouthAmericaPolygons.zip
 
@@ -37,12 +25,12 @@ Microsoft has a continued interest in supporting a thriving OpenStreetMap ecosys
 Maybe. Never overwrite the hard work of other contributors or blindly import data into OSM without first checking the local quality. While our metrics show that this data meets or exceeds the quality of hand-drawn building footprints, the data does vary in quality from place to place, between rural and urban, mountains and plains, and so on. Inspect quality locally and discuss an import plan with the community. Always follow the [OSM import community guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).
 
 ### Will the data be used or made available in larger OpenStreetMap ecosystem?
-Yes. Currently Microsoft Open Buildings dataset is used in ml-enabler for task creation. You can try it out at [AI assisted Tasking Manager](https://tasks-assisted.hotosm.org/). The data will also be made avaialble in Facebook [RapiD](https://mapwith.ai/rapid#background=Bing&disable_features=boundaries&map=2.00/0.0/0.0).
+Yes. Currently Microsoft Open Buildings dataset is used in ml-enabler for task creation. You can try it out at [AI assisted Tasking Manager](https://tasks-assisted.hotosm.org/). The data will also be made available in Facebook [RapiD](https://mapwith.ai/rapid#background=Bing&disable_features=boundaries&map=2.00/0.0/0.0).
 
-### What is the creation process for this data?
+### How did we create the data?
 The building extraction is done in two stages:
-1.	Semantic Segmentation – Recognizing building pixels on the aerial image using DNNs
-2.	Polygonization – Converting building pixel blobs into polygons
+1.	Semantic Segmentation – Recognizing building pixels on an aerial image using deep neural networks (DNNs)
+2.	Polygonization – Converting building pixel detections into polygons
 
 #### Stage1: Semantic Segmentation
 ![](/images/segmentation.jpg)
@@ -50,11 +38,11 @@ The building extraction is done in two stages:
 #### Stage 2: Polygonization
 ![](/images/polygonization.jpg)
 
-### Is there any technical improvement used in this round than previous ones? 
-Our building extraction model for South America was tuned using only unsupervised training (no training labels), specifically style-transfer and self-training techniques we have developed internally.
+### Were there any modeling improvements used for this release? 
+Our building extraction model for South America was tuned using only unsupervised training (no training labels), specifically style-transfer and self-training techniques that we have developed internally.
 
 ### Evaluation set metrics
-The evaluation metrics are computed on the set of 2500 building labels.
+The evaluation metrics are computed on the set of 2,500 building labels.
 
 Building match metrics on the evaluation set:
 
@@ -75,20 +63,20 @@ We track following metrics to measure the quality of matched buildings in the ev
 
 ### False positive ratio in the corpus
 
-We estimate ~1.5% false postive ratio in 1000 randomly sampled buildings from the entire output corpus.
+We estimate ~1.5% false positive ratio in 1,000 randomly sampled buildings from the entire output corpus.
 
 
 ### What is the vintage of this data?
-Vintage of extracted building footprints depends on vintage of the underlying imagery. Underlying imagery is from Maxar, 2020/2021.
+Vintage of extracted building footprints depends on vintage of the underlying imagery. Underlying imagery is from Maxar between 2020 and 2021.
 
 ### How good is the data?
-Our metrics show that in the vast majority of cases the quality is at least as good as data hand digitized buildings in OpenStreetMap. It is not perfect, particularly in dense urban areas but it provides good recall in rural areas.
+Our metrics show that in the vast majority of cases the quality is at least as good as hand digitized buildings in OpenStreetMap. It is not perfect, particularly in dense urban areas but it provides good recall in rural areas.
 
 ### What is the coordinate reference system?
 EPSG: 4326
 
 ### Will there be more data coming for other geographies?
-Maybe. This is a work in progress.
+Maybe. This is a work in progress. Also, check out our [US](https://github.com/microsoft/USBuildingFootprints) and [Australia](https://github.com/microsoft/AustraliaBuildingFootprints) buildings releases!
 
 <br>
 
