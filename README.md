@@ -81,7 +81,11 @@ Our metrics show that in the vast majority of cases the quality is at least as g
 EPSG: 4326
 
 ### Will there be more data coming for other geographies?
-Maybe. This is a work in progress. Also, check out our [US](https://github.com/microsoft/USBuildingFootprints) and [Australia](https://github.com/microsoft/AustraliaBuildingFootprints) buildings releases!
+Maybe. This is a work in progress. Also, check out our other building releases!
+*  [US](https://github.com/microsoft/USBuildingFootprints)
+* [Australia](https://github.com/microsoft/AustraliaBuildingFootprints)
+* [Canada](https://github.com/microsoft/CanadianBuildingFootprints)
+* [Uganda and Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints)
 
 <br>
 
