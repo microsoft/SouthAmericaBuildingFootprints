@@ -14,9 +14,22 @@ This data is licensed by Microsoft under the [Open Data Commons Open Database Li
 
 ## FAQ
 ### What does the data include?
-44,495,865‬ building footprint polygon geometries located in South America in GeoJSON format. You may download the data in GeoJSON format here:
+44,495,865 building footprint polygon geometries located in South America in GeoJSON format. You may download the data in GeoJSON format here:
 
-https://minedbuildings.blob.core.windows.net/southamerica/SouthAmericaPolygons.zip
+| Location | Count | Link | Size (Compressed) |
+| :---: | :---: | :---: |:---: |
+| Continent | 44,495,865 | [SouthAmericaPolygons.zip](https://minedbuildings.blob.core.windows.net/southamerica/SouthAmericaPolygons.zip) | 15GB |
+| Argentina | 3,427,787 | [Argentina.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Argentina.geojsonl.zip) | 323MB |
+| Bolivia | 1,015,151 | [Bolivia.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Bolivia.geojsonl.zip) | 82MB |
+| Brazil | 18,711,536 | [Brazil.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Brazil.geojsonl.zip) | 1.6GB |
+| Chile | 2,208,744 | [Chile.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Chile.geojsonl.zip) | 187MB |
+| Colombia | 6,083,821 | [Colombia.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Colombia.geojsonl.zip) | 482MB |
+| Ecuador | 3,674,190 | [Ecuador.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Ecuador.geojsonl.zip) | 287MB |
+| Guyana | 3,339 | [Guyana.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Guyana.geojsonl.zip) | 236KB |
+| Paraguay | 990,756 | [Paraguay.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Paraguay.geojsonl.zip) | 73MB |
+| Peru | 1,710,431 | [Peru.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Peru.geojsonl.zip) | 144MB |
+| Uruguay | 2,656 | [Uruguay.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Uruguay.geojsonl.zip) | 200KB |
+| Venezuela | 6,572,969 | [Venezuela.geojsonl.zip](https://minedbuildings.blob.core.windows.net/southamerica/Venezuela.geojsonl.zip) | 497MB |
 
 
 ### What is the GeoJSON format?
